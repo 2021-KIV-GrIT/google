@@ -1,0 +1,54 @@
+#container{
+
+    display: flex;
+    height:90vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#box{
+    margin-top:30px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    height:40px;
+    width: 600px;
+
+    background-color: white;
+    border:2px solid #c2c2c2;
+    border-radius: 40px;
+}
+
+
+.icon{
+    margin-left:10px;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+}
+
+.button{
+    margin-top:30px;
+    height:30px;
+    width:100px;
+    margin-left: 20px;
+
+    font-size:10px;
+    background-color: #f0f0f0;
+    border:0px;
+    border-radius:5px;
+}
+
+/*시간 남으면*/
+
+
+.button:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
